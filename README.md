@@ -72,7 +72,7 @@ Add this local repository as an input to your system flake:
 
 ```nix
 inputs.suwayomi = {
-  url = "path:/home/edward/Documents/projects/suwayomi-flake";
+  url = "github:twempi/suwayomi-flake";
   inputs.nixpkgs.follows = "nixpkgs";
 };
 ```
